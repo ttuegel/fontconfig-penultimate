@@ -1,12 +1,7 @@
 # fontconfig-penultimate
 
-fontconfig-penultimate is a minimalist fork of fontconfig-ultimate
-providing metric and family aliases and a few font-specific selective rendering settings;
-it does not provide font substitutions or detailed selective rendering configurations.
-It has no configurable parts,
-but it also will not override your existing configuration:
-fontconfig-penultimate provides a sensible and complete set of defaults,
-nothing more or less.
+fontconfig-penultimate is a collection of sensible defaults for Fontconfig that requires no configuration.
+It is a minimalist fork of fontconfig-ultimate that retains the metric and family aliases, but eschews extensive substitutions and selective rendering.
 
 ## Requirements
 
