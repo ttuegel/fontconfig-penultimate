@@ -12,7 +12,12 @@ No patches to FreeType are required, but FreeType 2.7 or later is recommended fo
 
 ## Installation
 
-Clone this repository and add this to your existing `fonts.conf`:
-```.xml
-<include>path/to/cloned/repository</include>
+```
+# Clone this repository to ./fontconfig-penultimate first.
+
+# Remove the existing Fontconfig settings (optional).
+# Saves files matching 0*.conf that conventionally contain system-specific paths.
+$ rm /etc/fonts/conf.d/[1-9]*.conf
+# Install fontconfig-penultimate.
+$ cp ./fontconfig-penultimate/*.conf /etc/fonts/conf.d
 ```
